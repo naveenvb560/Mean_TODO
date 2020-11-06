@@ -1,0 +1,10 @@
+.button {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}

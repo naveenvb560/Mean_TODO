@@ -1,0 +1,23 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<form  (submit)="onRegisterSubmit()">
+  <label>
+    <p class="label-txt">ENTER YOUR USERNAME</p>
+    <input type="text" class="input" [(ngModel)]="username" name="username">
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  <label>
+    <p class="label-txt">ENTER YOUR PASSWORD</p>
+    <input type="text" class="input" [(ngModel)]="password" name="password" >
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+  </label>
+  <button type="submit">submit</button>
+</form>
+
+
